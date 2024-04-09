@@ -6,13 +6,13 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Main Page',
-  description: 'Our Main Page',
+  title: 'Home',
+  description: 'Portfolio home page for Sean Cordill',
   ogTitle: '[og:title]',
   ogDescription: '[og:description]',
   ogImage: '[og:image]',
   ogUrl: '[og:url]',
-  twitterTitle: 'Main Page',
+  twitterTitle: 'Home Page',
   twitterDescription: '[twitter:description]',
   twitterImage: '[twitter:image]',
   twitterCard: 'summary'

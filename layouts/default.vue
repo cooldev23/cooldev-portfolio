@@ -6,8 +6,31 @@
       </div>
       <Menu />
     </header>
-    <main class="p-2">
+    <main class="mt-10 p-2">
       <slot />
     </main>
   </div>
 </template>
+
+<script setup>
+useHead({
+  titleTemplate: '%s - Sean Cordill',
+  link: [
+    {
+      rel: 'preconnect',
+      href: 'https://fonts.googleapis.com'
+    },
+    {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Roboto&display=swap',
+      crossorigin: ''
+    }
+  ]
+})
+</script>
+
+<style>
+body {
+  font-family: 'Tenor Sans';
+}
+</style>

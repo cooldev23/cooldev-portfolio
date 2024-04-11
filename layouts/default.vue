@@ -32,5 +32,10 @@ useHead({
 <style>
 body {
   font-family: 'Tenor Sans';
+  @apply bg-gray-100;
+}
+
+body {
+  @apply bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300
 }
 </style>

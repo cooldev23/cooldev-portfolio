@@ -4,7 +4,10 @@
       <div>
         <NuxtLink to="/" class="text-2xl p-2 font-semibold hover:bg-blue-200">Sean Cordill</NuxtLink>
       </div>
-      <Menu />
+      <div class="flex">
+        <Menu />
+        <ColorModeSelector />
+      </div>
     </header>
     <main class="mt-10 p-2">
       <slot />

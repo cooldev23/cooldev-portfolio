@@ -4,9 +4,11 @@
       <div>
         <NuxtLink to="/" class="text-2xl p-2 font-semibold hover:bg-blue-200">Sean Cordill</NuxtLink>
       </div>
-      <div class="flex">
+      <div class="flex items-center">
         <Menu />
-        <ColorModeSelector />
+        <ClientOnly>
+          <ColorModeSelector />
+        </ClientOnly>
       </div>
     </header>
     <main class="mt-10 p-2">

@@ -8,5 +8,20 @@ export default defineNuxtConfig({
   ],
   colorMode: {
     classSuffix: ''
+  },
+  content: {
+    highlight: {
+      // Theme used in all color schemes.
+      // theme: 'github-light'
+      // OR
+      theme: {
+        // Default theme (same as single string)
+        default: 'vitesse-light',
+        // Theme used if `html.dark`
+        dark: 'vitesse-dark',
+        // Theme used if `html.sepia`
+        sepia: 'monokai'
+      }
+    }
   }
 })

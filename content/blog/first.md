@@ -1,5 +1,5 @@
 ---
-title: 'My Page Title'
+title: 'First Blog Post'
 description: 'What a lovely page.'
 image:
   src: '/assets/image.jpg'
@@ -18,6 +18,7 @@ head:
       content: '© 2022 NuxtLabs'
     - name: 'og:title'
       content: 'Open Graph Title'
+publishedAt: 2024-01-01 15:13:21
 ---
 # First post on our website
 ## Introduction 

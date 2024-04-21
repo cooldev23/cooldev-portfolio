@@ -22,11 +22,9 @@ head:
 
 # Sean Cordill
 
-::card
 ## Father & Husband
 
 I live in Loveland, CO with my wife and daughter.  We enjoy camping, hiking, snowboarding/skiing, theme parks, live music and traveling.  We have a dog named Ernie.
-::
 
 ## Web Developer
 

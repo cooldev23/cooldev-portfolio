@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <ul class="flex space-x-4">
+    <ul class="text-white flex space-x-4">
       <li>
         <NuxtLink to="/" class="menu-item">Home</NuxtLink>
       </li>
@@ -19,7 +19,7 @@
 
 <style scoped>
 .menu-item {
-  @apply p-2 hover:bg-blue-200;
+  @apply p-2 hover:bg-blue-200 hover:rounded hover:shadow-md hover:text-gray-700;
   font-family: 'Roboto';
 }
 </style>

@@ -1,10 +1,9 @@
 <template>
   <div>
-    <h3 class="text-xl">Take a look at my GitHub projects!</h3>
     <section v-if="pending">Loading...</section>
     <section v-else-if="error">Something went wrong... Try again</section>
-    <section v-else>
-      <ul class="grid grid-cols-1 gap-4">
+    <section v-else class="not-prose">
+      <ul class="pl-0 grid grid-cols-1 gap-4 list-none">
         <li v-for="repository in reposWithDescription" :key="repository.id" class="p-4 border border-gray-200 rounded-md bg-blue-100 hover:bg-blue-300 hover:shadow-sm font-mono relative shadow-md dark:text-gray-700">
           <div class="flex justify-between items-center">
             <div>

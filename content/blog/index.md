@@ -22,4 +22,3 @@ head:
 # My Recent Blog Posts
 
 ::BlogPosts
-::

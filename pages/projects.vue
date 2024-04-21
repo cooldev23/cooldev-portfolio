@@ -1,12 +1,11 @@
 <template>
-  <div>
-    <h2 class="text-2xl font-semibold mb-10">My Projects</h2>
-    <ProjectList />
+  <div class="prose max-w-none dark:prose-invert">
+    <ContentDoc path="/projects" />
   </div>
 </template>
 
 <script setup>
 useHead({
-  title: 'Projects'
+  title: 'My Projects'
 })
 </script>

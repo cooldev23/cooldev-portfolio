@@ -1,8 +1,10 @@
 <template>
   <div class="container mx-auto max-w-4xl">
-    <header class="flex justify-between items-center mt-4">
+    <header class="pr-3 flex justify-between items-center bg-blue-400">
       <div>
-        <NuxtLink to="/" class="text-2xl p-2 font-semibold hover:bg-blue-200">Sean Cordill</NuxtLink>
+        <NuxtLink to="/">
+          <DevLogo />
+        </NuxtLink>
       </div>
       <div class="flex items-center">
         <Menu />
@@ -11,7 +13,7 @@
         </ClientOnly>
       </div>
     </header>
-    <main class="mt-10 p-2">
+    <main class="px-2 pb-5 bg-white min-h-screen dark:bg-gray-800 dark:text-gray-300">
       <slot />
     </main>
   </div>
